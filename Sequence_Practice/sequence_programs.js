@@ -22,3 +22,6 @@ console.log("42 inches in feet  "+ (1/feetInInch)*42);
 let feetInMeter = .304;
 let areaInMeters = 60*feetInMeter * 40*feetInMeter;
 console.log("Area in meters = "+areaInMeters)
+
+let acreInMeter=4046.86;
+console.log("Area of 25 plots in acre = "+25*areaInMeters*(1/acreInMeter));
