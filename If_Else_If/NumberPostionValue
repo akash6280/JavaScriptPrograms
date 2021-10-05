@@ -1,0 +1,15 @@
+
+const args = process.argv.slice(2);
+let number = parseInt(args[0]);
+
+if (number >=1 && number<=9) {
+    console.log("Unit");
+} else if (number < 100) {
+    console.log("Ten");
+} else if (number < 1000) {
+    console.log("Hundred");
+} else if (number < 10000) {
+    console.log("Thousand");
+} else {
+    console.log("Invalid Input");
+}
